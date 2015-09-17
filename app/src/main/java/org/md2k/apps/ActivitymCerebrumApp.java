@@ -3,13 +3,14 @@ package org.md2k.apps;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import org.md2k.utilities.Report.Log;
 
 
-public class ActivitymCerebrumApp extends Activity {
+public class ActivitymCerebrumApp extends ActionBarActivity {
     public static final String TAG=ActivitymCerebrumApp.class.getSimpleName();
 
     @Override
